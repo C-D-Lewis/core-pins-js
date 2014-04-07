@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<!-- Import jQuery -->
+		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+
+		<!-- Setup AJAX and Core control -->
+		<script src="js/core.js"></script>
+	</head>
+	<body>
+		<h1>Spark Core control using jQuery!</h1>
+
+		<h2>Authentication</h2>
+		<form method="get">
+			<p>Device ID:
+				<input type="text" id="device_id" value="Device ID here"/>
+			</p>
+			<p>Access Token:
+				<input type="text" id="access_token" value="Access Token here"/>
+			</p>
+		</form>
+
+		<br>
+		<h2>Toggle Pins</h2>
+		<form>
+			<p>Pin number (0 - 7):
+				<input type="text" id="pin_number" value="0"/> 
+			</p>
+			<input type="button" id="b_on" value="ON"/> 
+			<input type="button" id="b_off" value="OFF"/> 
+		</form>
+	</body>
+</html>
